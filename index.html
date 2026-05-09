@@ -4,181 +4,728 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bed & Sun</title>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500;600&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
- <section class="hero">
+
+<section class="hero" id="home">
     <div class="hero-content">
         <h1 class="main-title">Candle Haven</h1>
         <p class="subtitle">────── 🕯 ──────</p>
-        <p class="tagline">Your space deserves a touch of elegance.</p>
+        <p class="tagline">
+            Your space deserves a touch of elegance.
+        </p>
     </div>
 </section>
 
 <header class="animated-header">
-    <nav class="animated-nav">
-        <a href="#home" class="nav-link">HOME</a>
-        <a href="#about" class="nav-link">ABOUT</a>
-        <a href="#shop" class="nav-link">SHOP</a>
-        <a href="#contact" class="nav-link">CONTACT</a>
-        <br>
-    </nav>
-</header>
+    <div class="nav-wrapper">
+        <div class="logo">CANDLE</div>
+        <nav class="animated-nav" id="navMenu">
+            <a href="#home">HOME</a>
+            <a href="#about">ABOUT</a>
+            <a href="#best-sellers">BEST SELLERS</a>
+            <a href="#shop">SHOP</a>
+            <a href="#contact">CONTACT</a>
+        </nav>
 
+        <a href="#shop" class="header-btn">SHOP NOW ♡ </a>
+
+        <div class="hamburger" id="hamburger">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+    </div>
+</header>
 <section class="background-section">
 </section>
+
+
+
 <section class="additional-content">
     <div class="choose-content">
         <p>CHOOSE YOUR DREAM</p>
-        <img src="candle1-removebg-preview.png" alt="Your Image" class="choose-image">
+        <img src="candle1-removebg-preview.png"
+        alt="Your Image"
+        class="choose-image">
     </div>
 </section>
+
+
+
+
 <section class="about-section" id="about">
-    <div class="about-content">
-        <div class="about-image"></div>
+    <div class="blur-circle"></div>
+    <div class="about-container">
+        <div class="about-visual">
+            <div class="about-image"></div>
+            <div class="floating-card">
+                <span>HAND POURED</span>
+                <h4>Made with Natural Wax</h4>
+                <p>
+                    Crafted slowly in small batches
+                    for a cleaner and longer burn.
+                </p>
+            </div>
+        </div>
+
         <div class="about-text">
-            <h2 class="about-title">─── About ───</h2>
+            <span class="about-tag">ABOUT CANDLE HAVEN</span>
+            <h2 class="about-title">
+                Creating warmth through scent,
+                texture, and quiet atmosphere.
+            </h2>
             <p class="about-description">
-                Welcome to Candle Haven, a sanctuary of light and tranquility. Our candles are carefully handcrafted to bring warmth, elegance, and serenity to every space.
+                Candle Haven was created for people who love
+                calm interiors, soft lighting, and meaningful moments.
+                Every candle is designed to make your home
+                feel elegant, peaceful, and emotionally warm.
             </p>
+            <div class="about-details">
+                <div class="detail">
+                    <h3>100%</h3>
+                    <span>Natural Wax</span>
+                </div>
+                <div class="detail">
+                    <h3>48h</h3>
+                    <span>Burn Time</span>
+                </div>
+                <div class="detail">
+                    <h3>12k+</h3>
+                    <span>Happy Clients</span>
+                </div>
+            </div>
+            <div class="about-actions">
+                <a href="#shop" class="about-btn">
+                    Explore Collection
+                </a>
+               <a href="story.html" class="text-link">
+    Read Our Story
+</a>
+            </div>
         </div>
     </div>
 </section>
 
+
+
+<section class="scent-strip">
+    <div class="scent-item">
+        <span>TOP NOTES</span>
+        <h3>Vanilla Orchid</h3>
+    </div>
+    <div class="scent-item">
+        <span>HEART NOTES</span>
+        <h3>Soft Amber</h3>
+    </div>
+    <div class="scent-item">
+        <span>BASE NOTES</span>
+        <h3>Sandalwood Musk</h3>
+    </div>
+</section>
+
+
+
+<section class="best-sellers" id="best-sellers">
+    <div class="best-header">
+        <span class="tag">MOST LOVED</span>
+        <h2>Best Sellers</h2>
+        <p>Our most loved candles — chosen for elegance, scent and timeless design.</p>
+    </div>
+    <div class="best-grid">
+        <div class="best-card">
+            <div class="img-wrap">
+                <img src="candle1.png">
+                <span class="badge">#1</span>
+            </div>
+            <div class="card-info">
+                <h3>Femme Feet</h3>
+                <p class="desc">Soft floral scent with warm vanilla notes.</p>
+
+                <div class="meta">
+                    <span class="price">$20</span>
+                    <span class="rating">★★★★★</span>
+                </div>
+    <div class="shop-buttons">
+    <button class="shop-item-btn" data-title="Femme Feet" data-price="20">
+        Add to Cart
+    </button>
+    <button class="view-item-btn"
+    data-id="femme-feet"
+    data-title="Femme Feet"
+    data-price="20"
+    data-img="candle1.png"
+    data-desc="Elegant feminine energy with soft floral warmth. Perfect for relaxing evenings and aesthetic spaces.">
+        View Details
+    </button>
+</div>
+            </div>
+        </div>
+        <div class="best-card">
+            <div class="img-wrap">
+                <img src="candle3.png">
+                <span class="badge">HOT</span>
+            </div>
+
+            <div class="card-info">
+                <h3>Ever Gleam</h3>
+                <p class="desc">Minimal luxury aroma for calm evenings.</p>
+                <div class="meta">
+                    <span class="price">$30</span>
+                    <span class="rating">★★★★★</span>
+                </div>
+
+    <div class="shop-buttons">
+    <button class="shop-item-btn" data-title="Ever Gleam" data-price="30">
+        Add to Cart
+    </button>
+    <button class="view-item-btn"
+        data-title="Ever Gleam"
+        data-price="30"
+        data-img="candle3.png"
+        data-desc="Minimal luxury aroma for calm evenings.">
+        View Details
+    </button>
+</div>       
+     </div>
+        </div>
+
+        <div class="best-card">
+            <div class="img-wrap">
+                <img src="candle6.png">
+                <span class="badge">TOP</span>
+            </div>
+            <div class="card-info">
+                <h3>Angel Wings</h3>
+                <p class="desc">Soft clean fragrance with luxury touch.</p>
+                <div class="meta">
+                    <span class="price">$28</span>
+                    <span class="rating">★★★★★</span>
+                </div>
+            <div class="shop-buttons">
+          <button class="shop-item-btn" data-title="Angel Wings" data-price="28">
+        Add to Cart
+         </button>
+
+    <button class="view-item-btn"
+        data-title="Angel Wings"
+        data-price="28"
+        data-img="candle6.png"
+        data-desc="Soft clean fragrance with luxury touch.">
+        View Details
+    </button>
+</div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+
+
+<section class="philosophy">
+    <div class="philosophy-left">
+        <span>OUR PHILOSOPHY</span>
+        <h2>
+            We believe scent changes the feeling of a home.
+        </h2>
+    </div>
+    <div class="philosophy-right">
+        <p>
+            Every candle is designed to slow down the moment,
+            soften the atmosphere, and create emotional warmth
+            through light, texture, and fragrance.
+        </p>
+    </div>
+</section>
+
+
+
+<section class="how-made">
+    <div class="how-header">
+        <span>OUR PROCESS</span>
+        <h2>How Our Candles Are Made</h2>
+        <p>Every candle is handcrafted with care, patience, and premium ingredients to ensure the perfect glow and fragrance.</p>
+    </div>
+    <div class="how-grid">
+        <div class="step">
+            <h3>Hand Poured Wax</h3>
+            <p>We carefully melt and hand-pour natural wax in small batches for quality control.</p>
+        </div>
+        <div class="step">
+            <h3>Natural Fragrance Oils</h3>
+            <p>We blend premium, non-toxic fragrance oils inspired by nature and luxury scents.</p>
+        </div>
+        <div class="step">
+            <h3>Careful Curing</h3>
+            <p>Each candle is left to cure for perfect scent throw and long-lasting burn time.</p>
+        </div>
+        <div class="step">
+            <h3>Elegant Packaging</h3>
+            <p>We package each candle in aesthetic, eco-friendly wrapping ready for gifting.</p>
+        </div>
+    </div>
+</section>
 
 
 <section class="shop-section" id="shop">
-    <h2 class="shop-title">─── Our Candle Collection ───</h2>
-    <div class="shop-grid">
-        <div class="shop-item">
-            <img src="candle1.png" alt="Candle 1" class="shop-image">
-            <h3 class="shop-item-title">Femme Feet</h3>
-            <p class="shop-item-description">A chic, feminine candle adding elegance to any space.</p>
-            <p class="shop-item-price">$20</p>
-            <button class="shop-item-btn" data-title="Femme Feet" data-price="20" >Add to Cart</button>
+    <div class="shop-header">
+        <h2>Our Candle Collection</h2>
+        <p>Handcrafted candles designed to bring warmth, elegance, and serenity into your space.</p>
+    </div>
+<div class="shop-grid">
+    <div class="shop-card">
+        <img src="candle1.png" alt="Femme Feet">
+        <h3>Femme Feet</h3>
+        <p>Elegant feminine energy with soft floral warmth.</p>
+        <span class="price">$20</span>
+       <div class="shop-buttons">
+    <button class="shop-item-btn" data-title="Femme Feet" data-price="20">
+        Add to Cart
+    </button>
+    <button class="view-item-btn"
+        data-title="Femme Feet"
+        data-price="20"
+        data-img="candle1.png"
+        data-desc="Elegant feminine energy with soft floral warmth. Perfect for relaxing evenings and aesthetic spaces.">
+        View Details
+    </button>
+</div>
+    </div>
+
+
+    <div class="shop-card">
+        <img src="candle2.png" alt="Color Glow">
+        <h3>Color Glow</h3>
+        <p>Bright ambiance that softens every room.</p>
+        <span class="price">$22</span>
+    <div class="shop-buttons">
+    <button class="shop-item-btn" data-title="Color Glow" data-price="22">
+        Add to Cart
+    </button>
+    <button class="view-item-btn"
+        data-title="Color Glow"
+        data-price="22"
+        data-img="candle2.png"
+        data-desc="Bright ambiance that softens every room.">
+        View Details
+    </button>
+</div>
+    </div>
+
+
+
+    <div class="shop-card">
+        <img src="candle3.png" alt="Ever Gleam">
+        <h3>Ever Gleam</h3>
+        <p>Minimal luxury with timeless aesthetic energy.</p>
+        <span class="price">$30</span>
+    <div class="shop-buttons">
+    <button class="shop-item-btn" data-title="Ever Gleam" data-price="30">
+        Add to Cart
+    </button>
+    <button class="view-item-btn"
+        data-title="Ever Gleam"
+        data-price="30"
+        data-img="candle3.png"
+        data-desc="Minimal luxury with timeless aesthetic energy.">
+        View Details
+    </button>
+</div>
+    </div>
+
+
+
+    <div class="shop-card">
+        <img src="candle4.png" alt="Rockstar">
+        <h3>Rockstar</h3>
+        <p>Bold scent for confident, modern spaces.</p>
+        <span class="price">$25</span>
+    <div class="shop-buttons">
+    <button class="shop-item-btn" data-title="Rockstar" data-price="25">
+        Add to Cart
+    </button>
+    <button class="view-item-btn"
+        data-title="Rockstar"
+        data-price="25"
+        data-img="candle4.png"
+        data-desc="Bold scent for confident, modern spaces.">
+        View Details
+    </button>
+</div>
+    </div>
+
+
+
+    <div class="shop-card">
+        <img src="candle5.png" alt="Seashell Serenity">
+        <h3>Seashell Serenity</h3>
+        <p>Ocean-inspired calm with soft coastal notes.</p>
+        <span class="price">$18</span>
+    <div class="shop-buttons">
+    <button class="shop-item-btn" data-title="Seashell Serenity" data-price="18">
+        Add to Cart
+    </button>
+    <button class="view-item-btn"
+        data-title="Seashell Serenity"
+        data-price="18"
+        data-img="candle5.png"
+        data-desc="Ocean-inspired calm with soft coastal notes.">
+        View Details
+    </button>
+</div>
+    </div>
+
+
+    <div class="shop-card">
+        <img src="candle6.png" alt="Angel Wings">
+        <h3>Angel Wings</h3>
+        <p>Pure, soft fragrance with heavenly touch.</p>
+        <span class="price">$28</span>
+    <div class="shop-buttons">
+    <button class="shop-item-btn" data-title="Angel Wings" data-price="28">
+        Add to Cart
+    </button>
+    <button class="view-item-btn"
+        data-title="Angel Wings"
+        data-price="28"
+        data-img="candle6.png"
+        data-desc="Pure, soft fragrance with heavenly touch.">
+        View Details
+    </button>
+</div>
+    </div>
+
+
+
+    <div class="shop-card">
+        <img src="candle7.png" alt="Grace & Simplicity">
+        <h3>Grace & Simplicity</h3>
+        <p>Minimal design with calm, balanced energy.</p>
+        <span class="price">$26</span>
+    <div class="shop-buttons">
+    <button class="shop-item-btn" data-title="Grace & Simplicity" data-price="26">
+        Add to Cart
+    </button>
+    <button class="view-item-btn"
+        data-title="Grace & Simplicity"
+        data-price="26"
+        data-img="candle7.png"
+        data-desc="Minimal design with calm, balanced energy.">
+        View Details
+    </button>
+</div>
+    </div>
+
+
+
+    <div class="shop-card">
+        <img src="candle8.png" alt="Eternal Duo">
+        <h3>Eternal Duo</h3>
+        <p>A symbol of unity, warmth and connection.</p>
+        <span class="price">$32</span>
+    <div class="shop-buttons">
+    <button class="shop-item-btn" data-title="Eternal Duo" data-price="32">
+        Add to Cart
+    </button>
+    <button class="view-item-btn"
+        data-title="Eternal Duo"
+        data-price="32"
+        data-img="candle8.png"
+        data-desc="A symbol of unity, warmth and connection.">
+        View Details
+    </button>
+</div>
+    </div>
+
+
+
+    <div class="shop-card">
+        <img src="candle9.png" alt="The Goddess">
+        <h3>The Goddess</h3>
+        <p>Celebrating feminine power and beauty.</p>
+        <span class="price">$35</span>
+    <div class="shop-buttons">
+    <button class="shop-item-btn" data-title="The Goddess" data-price="35">
+        Add to Cart
+    </button>
+    <button class="view-item-btn"
+        data-title="The Goddess"
+        data-price="38"
+        data-img="candle1.png"
+        data-desc="Celebrating feminine power and beauty.">
+        View Details
+    </button>
+</div>
+    </div>
+
+
+
+    <div class="shop-card">
+        <img src="candle10.png" alt="Blooming Body">
+        <h3>Blooming Body</h3>
+        <p>Soft maternal energy with gentle floral tones.</p>
+        <span class="price">$21</span>
+    <div class="shop-buttons">
+    <button class="shop-item-btn" data-title="Blooming Body" data-price="21">
+        Add to Cart
+    </button>
+    <button class="view-item-btn"
+        data-title="Blooming Body"
+        data-price="21"
+        data-img="candle10.png"
+        data-desc="Soft maternal energy with gentle floral tones.">
+        View Details
+    </button>
+</div>
+    </div>
+
+
+
+    <div class="shop-card">
+        <img src="candle11.png" alt="Lover’s Marks">
+        <h3>Lover’s Marks</h3>
+        <p>Warm romantic scent with deep cozy notes.</p>
+        <span class="price">$19</span>
+    <div class="shop-buttons">
+    <button class="shop-item-btn" data-title="Lover’s Marks" data-price="19">
+        Add to Cart
+    </button>
+    <button class="view-item-btn"
+        data-title="Lover’s Marks"
+        data-price="19"
+        data-img="candle11.png"
+        data-desc="Warm romantic scent with deep cozy notes.">
+        View Details
+    </button>
+</div>
+    </div>
+
+
+
+    <div class="shop-card">
+        <img src="candle12.png" alt="Butterfly Embrace">
+        <h3>Butterfly Embrace</h3>
+        <p>Light, soft transformation energy.</p>
+        <span class="price">$24</span>
+    <div class="shop-buttons">
+    <button class="shop-item-btn" data-title="Butterfly Embrace" data-price="24">
+        Add to Cart
+    </button>
+    <button class="view-item-btn"
+        data-title="Butterfly Embrace"
+        data-price="24"
+        data-img="candle12.png"
+        data-desc="Light, soft transformation energy.">
+        View Details
+    </button>
+</div>
+    </div>
+</div>
+
+
+<section class="instagram">
+    <div class="insta-header">
+        <span>INSTAGRAM</span>
+        <h2>@candlehaven</h2>
+        <p>Follow our daily aesthetic moments & candle inspiration</p>
+    </div>
+
+    <div class="insta-grid">
+        <div class="insta-item">
+            <img src="candle1.png" alt="">
         </div>
-        
-        <div class="shop-item">
-            <img src="candle2.png" alt="Candle 2" class="shop-image">
-            <h3 class="shop-item-title">Color Glow</h3>
-            <p class="shop-item-description">Vibrant, classic candles to brighten any moment.</p>
-            <p class="shop-item-price">$22</p> 
-            <button class="shop-item-btn" data-title="Color Glow" data-price="22">Add to Cart</button>
+        <div class="insta-item">
+            <img src="candle2.png" alt="">
         </div>
-        
-        <div class="shop-item">
-            <img src="candle3.png" alt="Candle 3" class="shop-image">
-            <h3 class="shop-item-title">Ever Gleam</h3>
-            <p class="shop-item-description"> A festive candle in the shape of a Christmas tree.</p>
-            <p class="shop-item-price">$30</p> 
-        <button class="shop-item-btn" data-title="Ever Gleam" data-price="30">Add to Cart</button>
+        <div class="insta-item">
+            <img src="candle3.png" alt="">
         </div>
-        
-        <div class="shop-item">
-            <img src="candle4.png" alt="Candle 4" class="shop-image">
-            <h3 class="shop-item-title">Rockstar</h3>
-            <p class="shop-item-description">A bold candle in the shape of a rock & roll.</p>
-            <p class="shop-item-price">$25</p> 
-           <button class="shop-item-btn" data-title="Rockstar Rebel" data-price="25">Add to Cart</button>
+        <div class="insta-item">
+            <img src="candle4.png" alt="">
         </div>
-        
-        <div class="shop-item">
-            <img src="candle5.png" alt="Candle 5" class="shop-image">
-            <h3 class="shop-item-title">Seashell Serenity</h3>
-            <p class="shop-item-description">A seashell-shaped candle for a coastal touch.</p>
-            <p class="shop-item-price">$18</p> 
-           <button class="shop-item-btn" data-title="Seashell Serenity" data-price="18">Add to Cart</button>
+        <div class="insta-item">
+            <img src="candle5.png" alt="">
         </div>
-        
-        <div class="shop-item">
-            <img src="candle6.png" alt="Candle 6" class="shop-image">
-            <h3 class="shop-item-title">Angel Wings Candle </h3>
-            <p class="shop-item-description">A candle shaped like angel wings, bringing a serene touch</p>
-            <p class="shop-item-price">$28</p>
-            <button class="shop-item-btn" data-title="Angel Wings" data-price="28">Add to Cart</button>
+        <div class="insta-item">
+            <img src="candle6.png" alt="">
         </div>
-        
-        <div class="shop-item">
-            <img src="candle7.png" alt="Candle 7" class="shop-image">
-            <h3 class="shop-item-title">Grace & Simplicity</h3>
-            <p class="shop-item-description">A candle set with two female figures and round box designs.</p>
-            <p class="shop-item-price">$26</p>
-            <button class="shop-item-btn" data-title="Grace & Simplicity" data-price="26">Add to Cart</button>
+    </div>
+
+    <div class="insta-btn">
+        <a href="https://www.instagram.com/bedandsun/">View on Instagram</a>
+    </div>
+
+</section>
+
+
+
+<section class="testimonials">
+    <div class="testimonials-header">
+        <span>VERIFIED REVIEWS</span>
+        <h2>What Customers Are Saying</h2>
+    </div>
+
+    <div class="testimonials-grid">
+        <div class="testimonial-card">
+            <div class="top">
+                <img src="saraaa.png" alt="Sara M" class="avatar">
+                <div>
+                    <h4>Sara M.</h4>
+                    <span>Verified Buyer</span>
+                </div>
+            </div>
+            <p>“Vanilla + warm amber. Burns evenly, no smoke.”</p>
         </div>
-        
-        <div class="shop-item">
-            <img src="candle8.png" alt="Candle 8" class="shop-image">
-            <h3 class="shop-item-title">Eternal Duo Candle</h3>
-            <p class="shop-item-description">A candle set of man and woman, symbolizing unity.</p>
-            <p class="shop-item-price">$32</p>
-            <button class="shop-item-btn" data-title="Eternal Duo" data-price="32">Add to Cart</button>
+
+        <div class="testimonial-card">
+            <div class="top">
+                <img src="elena.jpg" alt="Sara M" class="avatar">
+                <div>
+                    <h4>Elena K.</h4>
+                    <span>Verified Buyer</span>
+                </div>
+            </div>
+            <p>“Smells expensive. My room feels calmer instantly.”</p>
         </div>
-        
-        <div class="shop-item">
-            <img src="candle9.png" alt="Candle 9" class="shop-image">
-            <h3 class="shop-item-title">The Goddess Collection</h3>
-            <p class="shop-item-description">A vibrant array of female form candles celebrating diversity.</p>
-            <p class="shop-item-price">$35</p>
-            <button class="shop-item-btn" data-title="The Goddess Collection" data-price="35">Add to Cart</button>
+
+        <div class="testimonial-card">
+            <div class="top">
+               <img src="mia.jpg" alt="Sara M" class="avatar">
+                <div>
+                    <h4>Mia R.</h4>
+                    <span>Verified Buyer</span>
+                </div>
+            </div>
+            <p>“Packaging looks premium. Bought 3 more as gifts.”</p>
         </div>
-        
-        <div class="shop-item">
-            <img src="candle10.png" alt="Candle 10" class="shop-image">
-            <h3 class="shop-item-title">Blooming Body</h3>
-            <p class="shop-item-description">A graceful candle symbolizing the beauty of motherhood.</p>
-            <p class="shop-item-price">$21</p>
-            <button class="shop-item-btn" data-title="Blooming Body" data-price="21">Add to Cart</button>
+
+        <div class="testimonial-card">
+            <div class="top">
+             <img src="arta.jfif" alt="Sara M" class="avatar">
+                <div>
+                    <h4>Arta L.</h4>
+                    <span>Verified Buyer</span>
+                </div>
+            </div>
+            <p>“Soft scent, not overpowering. Perfect for evenings.”</p>
         </div>
-        
-        <div class="shop-item">
-            <img src="candle11.png" alt="Candle 11" class="shop-image">
-            <h3 class="shop-item-title">Lover's Marks</h3>
-            <p class="shop-item-description">A warm, comforting glow with a citrusy touch.</p>
-            <p class="shop-item-price">$19</p>
-            <button class="shop-item-btn" data-title="Lover's Marks" data-price="19">Add to Cart</button>
+
+        <div class="testimonial-card featured">
+            <div class="top">
+             <img src="sara.jpg" alt="Sara M" class="avatar">
+                <div>
+                    <h4>Lea H.</h4>
+                    <span>Verified Buyer</span>
+                </div>
+            </div>
+            <p>“Feels like a luxury spa at home. Really aesthetic and calming atmosphere.”</p>
         </div>
-        
-        <div class="shop-item">
-            <img src="candle12.png" alt="Candle 12" class="shop-image">
-            <h3 class="shop-item-title">Butterfly Embrace</h3>
-            <p class="shop-item-description">Two bodies adorned with delicate butterflies.</p>
-            <p class="shop-item-price">$24</p>
-            <button class="shop-item-btn" data-title="Butterfly Embrace" data-price="24">Add to Cart</button>
-        </div>
-        
+    </div>
+</section>
 
 <section class="contact-section" id="contact">
-    <h2 class="contact-title">─── Get in Touch ───</h2>
-    <div class="contact-content">
-        <div class="contact-image">
-            <img src="bacakground6-removebg-preview.png" alt="Contact Image" />
-        </div>
+    <div class="contact-hero">
+        <img src="bacakground6-removebg-preview.png" alt="">
+        <div class="contact-overlay">
+            <div class="contact-content">
+                <h2>Get in Touch</h2>
+                <p>
+                    We’re here for your questions, custom orders,
+                    or anything that brings warmth into your space.
+                </p>
+                <div class="contact-info">
+                    <span>Email: info@candlehaven.com</span>
+                    <span>Phone: +123 456 7890</span>
+                    <span>Location: Light City</span>
+                </div>
+                <form class="contact-form" id="contactForm">
+                    <input
+                        type="text"
+                        name="user_name"
+                        placeholder="Your Name"
+                        required
+                    >
+                    <input
+                        type="email"
+                        name="user_email"
+                        placeholder="Your Email"
+                        required
+                    >
+                    <textarea
+                        name="message"
+                        placeholder="Your Message"
+                        required
+                    ></textarea>
 
-        <div class="contact-details">
-            <div class="contact-info">
-                <h3 class="contact-subtitle">Contact Information</h3>
-                <p>Email: <a href="mailto:info@candlehaven.com">info@candlehaven.com</a></p>
-                <p>Phone: +123 456 7890</p>
-                <p>Location: 123 Candle Street, Light City</p>
-            </div>
-
-            <div class="contact-form-container">
-                <h3 class="contact-subtitle">Send Us a Message</h3>
-                <form class="contact-form">
-                    <input type="text" name="name" placeholder="Your Name" required>
-                    <input type="email" name="email" placeholder="Your Email" required>
-                    <textarea name="message" placeholder="Your Message" required></textarea>
-                    <button type="submit" class="contact-submit-btn">Send Message</button>
+                    <button type="submit">
+                        Send Message
+                    </button>
                 </form>
             </div>
-      
         </div>
     </div>
 </section>
 
 
+<div class="success-popup" id="successPopup">
+    <div class="popup-box">
+        <h3>
+            Thank You for your message! ♡
+        </h3>
+        <p>
+            We'll contact you as soon as possible.
+        </p>
+        <button id="closePopup">
+            Close
+        </button>
+    </div>
+</div>
 
+
+<footer class="footer">
+    <div class="footer-top">
+        <div class="footer-brand">
+            <h2>Candle Haven</h2>
+            <p>
+                Handcrafted candles designed to bring warmth, calm, and timeless elegance into your space.
+            </p>
+        </div>
+        <div class="footer-col">
+            <h3>Explore</h3>
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#best-sellers">Best sellers</a>
+            <a href="#shop">Shop</a>
+            <a href="#contact">Contact</a>
+        </div>
+
+        <div class="footer-col">
+            <h3>Information</h3>
+            <a href="#">Shipping</a>
+            <a href="#">Returns</a>
+            <a href="#">Care Guide</a>
+            <a href="#">FAQ</a>
+        </div>
+
+        <div class="footer-col">
+            <h3>Connect</h3>
+            <a href="#">Instagram</a>
+            <a href="#">Pinterest</a>
+            <a href="#">TikTok</a>
+        </div>
+
+    </div>
+    <div class="footer-divider"></div>
+    <div class="footer-bottom">
+        <p>© 2026 Candle Haven. All rights reserved.</p>
+    </div>
+
+</footer>
 
 <script src="script.js"></script>
 
