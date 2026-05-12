@@ -168,11 +168,13 @@ body{
     transform: translateX(5px);
     color: #c49e85;
 }
-    .background-section{
-    width: 100%;
-    max-width: 1200px;
-    margin: auto;
-}
+ .background-section {
+        margin-left: 20px;
+        margin-right: 20px;
+        height: 40vh;
+        background-size: cover;
+        background-position: center;
+    }
     
 }
 
